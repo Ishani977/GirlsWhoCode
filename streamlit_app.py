@@ -14,3 +14,7 @@ selected_types = st.multiselect(
     options = candy_types,
     default = ["Chocolate"]
 )
+
+btn = st.button("Recommend!")
+if btn:
+    selected_types_cleaned = clean_types(selected_types)
