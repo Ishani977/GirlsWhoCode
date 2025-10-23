@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.title("Halloween Candy Recommended")
+st.title("Halloween Candy Recommender")
